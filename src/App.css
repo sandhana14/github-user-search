@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #2f4f4f;
+  padding: 20px;
+  color: white;
+}
+.search {
+  text-align: center;
+  padding: 20px;
+}
+.search input {
+  font-size: 16px;
+  margin: 10px;
+  width: 300px;
+  height: 25px;
+}
+.search button {
+  font-size: 16px;
+  margin: 10px;
+  width: 90px;
+  height: 30px;
+}
+.search button:hover {
+  background-color: #2f4f4f;
+  color: white;
+  transition: 3s;
+}
+.card-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  background-color: #2f4f4f;
+  width: 25%;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 2px 2px 15px black;
+}
+.error {
+  text-align: center;
+}
+li {
+  list-style: none;
+  font-size: 16px;
+}
+.image img {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+hr {
+  border: 0.6px dotted white;
+}
+.card > * {
+  margin-bottom: 7px;
+}
+span {
+  font-size: 16px;
+  font-weight: normal;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #b8860b;
+}
+.name_repos > * {
+  margin-bottom: 7px;
+}
+.loading {
+  text-align: center;
+}
